@@ -14,11 +14,4 @@ public class myLibrary {
         }
         return myList;
     }
-
-    static void printArrayInt(ArrayList<Integer> enterArray) {
-        for (int i = 0; i < enterArray.size(); i++) {
-            System.out.printf("%d ", enterArray.get(i));
-        }
-        System.out.println("");
-    }
 }

@@ -15,7 +15,7 @@ public class task2 {
         }
         double avgD = Double.valueOf(avg) / myList.size();
         System.out.println("Список случайных чисел: ");
-        myLibrary.printArrayInt(myList);
+        System.out.println(myList);
         System.out.printf("Максимум равен %d, минимум равен %d, среднее значение равно %f", maxNum, minNum, avgD);
     }
 }

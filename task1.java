@@ -15,8 +15,8 @@ public class task1 {
         ArrayList<Integer> myList = myLibrary.createArrayInt(100);
         ArrayList<Integer> notEvenArray = destroyEvenNumber(myList);
         System.out.println("Список случайных чисел: ");
-        myLibrary.printArrayInt(myList);
+        System.out.println(myList);
         System.out.println("Список нечетных чисел: ");
-        myLibrary.printArrayInt(notEvenArray);
+        System.out.println(notEvenArray);
     }
 }
